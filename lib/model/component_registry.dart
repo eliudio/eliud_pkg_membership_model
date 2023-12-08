@@ -38,9 +38,6 @@ class ComponentRegistry {
       "membershipDashboards",
     ]);
 
-    Apis.apis().getRegistryApi().register(
-        componentName: "eliud_pkg_membership_model_internalWidgets",
-        componentConstructor: ListComponentFactory());
     Apis.apis().getRegistryApi().addDropDownSupporter(
         "membershipDashboards", DropdownButtonComponentFactory());
     Apis.apis().getRegistryApi().register(
